@@ -14,6 +14,10 @@ Seu objetivo é entender, reproduzir ou evoluir a Roda da Vida do projeto Desenv
 - A URL do respondente é pública e serve para preencher. A lista e os detalhes são privados, com autenticação de administrador. Listar avaliações, buscar nome/empresa e abrir o resultado individual. Mostrar WhatsApp, ou “Não informado” nos históricos antigos.
 - Relatório administrativo com roda das 14 áreas, média geral, menor e maior média e diferença entre extremos. Comparar visualmente as áreas da menor para a maior pontuação. Mostrar total e média. Os detalhes expandem as cinco afirmações, notas e observação. Empates recebem tratamento coerente. Use os números para orientar uma conversa, não para diagnosticar ou selecionar pessoas.
 
+## Acréscimos de 11/11/2026 (edição local)
+
+Ver `MELHORIAS-2026-11-11.md`. Preservar também: origem do acesso (`source`, opcional, fora do hash), convite de WhatsApp só depois do envio e só com `CONTACT_WHATSAPP`, funil de acompanhamento com anotação interna, CSV administrativo, limite de envios por IP e `npm test`. Essas mudanças ainda **não** estão na produção do APC.
+
 ## Contrato de envio
 
 ```json
@@ -26,7 +30,8 @@ Seu objetivo é entender, reproduzir ou evoluir a Roda da Vida do projeto Desenv
     "profile": {"name": "Nome", "whatsapp": "+5511999999999", "company": "", "role": "", "date": "AAAA-MM-DD"},
     "answers": ["70 inteiros de 1 a 10"],
     "notes": ["14 strings de até 2000 caracteres"]
-  }
+  },
+  "source": {"utm_source": "youtube", "utm_campaign": "nome-do-video"}
 }
 ```
 

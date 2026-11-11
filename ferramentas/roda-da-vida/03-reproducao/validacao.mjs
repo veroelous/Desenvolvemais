@@ -6,6 +6,25 @@ function normalizeWhatsapp(value) {
   return /^[1-9]\d{9,10}$/.test(digits) ? '+55' + digits : '';
 }
 
+const SOURCE_KEYS = ['origem', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_content'];
+
+// Origem do acesso (link do vídeo, descrição, WhatsApp...). Opcional e tolerante:
+// valores inválidos são descartados em vez de bloquear o envio da avaliação.
+export function normalizeSource(input) {
+  const source = {};
+  if (!input || typeof input !== 'object' || Array.isArray(input)) return source;
+  for (const key of SOURCE_KEYS) {
+    const value = typeof input[key] === 'string' ? input[key].trim().toLowerCase() : '';
+    if (value && value.length <= 80 && /^[\p{L}\p{N} ._:/+-]+$/u.test(value)) source[key] = value;
+  }
+  return source;
+}
+
+export function sourceLabel(source) {
+  if (!source) return '';
+  return source.origem || [source.utm_source, source.utm_campaign, source.utm_content].filter(Boolean).join(' · ');
+}
+
 export function validateSubmission(input) {
   if (!input || !/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(input.id || '')) throw new Error('Identificador inválido.');
   if (input.sharingConfirmed !== true) throw new Error('Confirme o envio das respostas.');
@@ -27,5 +46,6 @@ export function validateSubmission(input) {
   if (!Array.isArray(data.notes) || data.notes.length !== 14 || Array.from(data.notes).some(n => typeof n !== 'string' || n.length > 2000)) throw new Error('Observações inválidas.');
   const payload = { instrument:data.instrument, questionSet:data.questionSet, profile, consentVersion:'rvp-sharing-1', answers:[...data.answers], notes:[...data.notes] };
   const averages = Array.from({length:14}, (_, i) => payload.answers.slice(i*5,i*5+5).reduce((s,n)=>s+n,0)/5);
-  return { id:input.id.toLowerCase(), payload, averages, hash:createHash('sha256').update(JSON.stringify(payload)).digest('hex') };
+  // A origem fica fora do hash: reenviar as mesmas respostas por outro link não gera conflito.
+  return { id:input.id.toLowerCase(), payload, averages, source:normalizeSource(input.source), hash:createHash('sha256').update(JSON.stringify(payload)).digest('hex') };
 }

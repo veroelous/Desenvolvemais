@@ -1,7 +1,7 @@
 # Roda da Vida — pacote de transferência
 Data de preparação: 11/11/2026. Projeto: Desenvolve Mais.
 
-Comece por **LEIA-ME-PARA-A-IA.md**. Para executar localmente, abra **03-reproducao/README.md**. Para ler o histórico, abra **01-historico/CONVERSA.md**.
+Comece por **LEIA-ME-PARA-A-IA.md**. As melhorias feitas depois da transferência estão em **MELHORIAS-2026-11-11.md**. Para executar localmente, abra **03-reproducao/README.md**. Para ler o histórico, abra **01-historico/CONVERSA.md**.
 
 | Pasta | O que contém |
 |---|---|

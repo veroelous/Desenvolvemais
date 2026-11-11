@@ -1,1 +1,1 @@
-{"name":"roda-da-vida-reproducao","private":true,"type":"module","engines":{"node":">=22.13"},"scripts":{"start":"node --env-file-if-exists=.env servidor.mjs"},"optionalDependencies":{"nodemailer":"^7.0.11"}}
+{"name":"roda-da-vida-reproducao","private":true,"type":"module","engines":{"node":">=22.13"},"scripts":{"start":"node --env-file-if-exists=.env servidor.mjs","test":"node --test testes/*.test.mjs"},"optionalDependencies":{"nodemailer":"^7.0.11"}}

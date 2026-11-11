@@ -17,6 +17,10 @@ npm start
 
 Para testar, abra a página do respondente e escolha **Importar respostas**. Selecione `../04-exemplos/avaliacao-ficticia.json`. No resultado, autorize o envio e clique em **Enviar avaliação**. Anote o protocolo, entre no painel e clique em **Ver resultado**. Abra as notas de uma das áreas.
 
+Para rodar os testes automatizados: `npm test`.
+
+Para medir de onde vêm as avaliações, use links com origem, por exemplo `?nova=1&utm_source=youtube&utm_campaign=nome-do-video` ou `?nova=1&origem=instagram`. Defina `CONTACT_WHATSAPP` (com DDI, só dígitos) para exibir o convite de conversa após o envio. O painel mostra o funil de acompanhamento, permite registrar a situação de cada pessoa e exportar CSV. Detalhes em `../MELHORIAS-2026-11-11.md`.
+
 O banco local é criado em `dados/roda-da-vida.sqlite`. A aplicação grava a avaliação e a fila de notificação na mesma transação. Sem configuração SMTP, os avisos ficam pendentes e a gravação funciona normalmente.
 
 Para ativar avisos, instale a dependência opcional com `npm install` e configure `SMTP_HOST`, `SMTP_PORT`, `SMTP_FROM`, `SMTP_USER` e `SMTP_PASSWORD`. O destinatário indicado no modelo é `contato@manoelgoncalves.com`. Em ensaios com SMTP, use uma caixa de teste. A fila tenta novamente após falha, respeitando um intervalo de cinco minutos. Um erro ocorrido entre a aceitação pelo servidor de e-mail e a atualização do banco pode resultar em repetição do aviso.
