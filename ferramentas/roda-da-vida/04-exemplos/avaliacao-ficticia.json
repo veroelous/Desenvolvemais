@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "instrument": "genoma-roda-da-vida-profissional",
+  "questionSet": "rvp-70-v1",
+  "hasStarted": true,
+  "updatedAt": "2026-10-28T10:36:22.872Z",
+  "profile": {
+    "name": "Avaliação de demonstração",
+    "company": "Empresa exemplo",
+    "role": "Liderança",
+    "date": "2026-10-28",
+    "whatsapp": "+1 202 555 0100"
+  },
+  "answers": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    7,
+    7,
+    7,
+    7,
+    8,
+    8,
+    8,
+    8,
+    8,
+    9,
+    9,
+    9,
+    9,
+    9,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    7,
+    7,
+    7,
+    7,
+    8,
+    8,
+    8,
+    8,
+    8,
+    9,
+    9,
+    9,
+    9,
+    9,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "notes": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "currentArea": 13,
+  "lastScreen": "results",
+  "plan": {
+    "area": 6,
+    "goal": "Ter mais clareza e previsibilidade sobre meus recursos.",
+    "action": "Reservar 20 minutos por semana para revisar entradas e saídas.",
+    "indicator": "Quatro revisões semanais registradas.",
+    "deadline": "2026-11-27",
+    "committed": true
+  },
+  "exportedAt": "2026-10-28T10:36:23.882Z",
+  "results": {
+    "areaAverages": [
+      {
+        "area": "Saúde Física",
+        "average": 5
+      },
+      {
+        "area": "Energia e Vitalidade",
+        "average": 5
+      },
+      {
+        "area": "Equilíbrio Emocional",
+        "average": 6
+      },
+      {
+        "area": "Autoconhecimento e Consciência Pessoal",
+        "average": 7
+      },
+      {
+        "area": "Desenvolvimento Intelectual",
+        "average": 8
+      },
+      {
+        "area": "Carreira e Competência Profissional",
+        "average": 9
+      },
+      {
+        "area": "Prosperidade e Gestão Financeira",
+        "average": 4
+      },
+      {
+        "area": "Relacionamentos e Convivência Social",
+        "average": 5
+      },
+      {
+        "area": "Família e Base de Apoio",
+        "average": 6
+      },
+      {
+        "area": "Vida Afetiva e Parcerias",
+        "average": 7
+      },
+      {
+        "area": "Descanso, Lazer e Recuperação",
+        "average": 8
+      },
+      {
+        "area": "Contribuição e Impacto",
+        "average": 9
+      },
+      {
+        "area": "Espiritualidade e Vida Interior",
+        "average": 4
+      },
+      {
+        "area": "Propósito e Direção de Vida",
+        "average": 5
+      }
+    ],
+    "overallAverage": 6.285714285714286
+  },
+  "questionnaire": [
+    {
+      "area": "Saúde Física",
+      "questions": [
+        "Mantenho uma rotina regular de cuidados com minha saúde física.",
+        "Tenho hábitos consistentes de alimentação que contribuem para meu bem-estar.",
+        "Procuro manter prática regular de atividade física ou movimento corporal.",
+        "Presto atenção aos sinais do meu corpo e ajo quando necessário.",
+        "Minha saúde física favorece meu desempenho diário."
+      ]
+    },
+    {
+      "area": "Energia e Vitalidade",
+      "questions": [
+        "Inicio o dia com disposição para realizar minhas atividades.",
+        "Mantenho bom nível de energia ao longo da semana.",
+        "Equilibro períodos de esforço com momentos de recuperação.",
+        "Raramente me sinto constantemente esgotado.",
+        "Minha rotina favorece vitalidade e disposição."
+      ]
+    },
+    {
+      "area": "Equilíbrio Emocional",
+      "questions": [
+        "Lido com pressão sem perder controle emocional.",
+        "Tenho consciência das minhas emoções.",
+        "Reajo de forma equilibrada diante de frustrações.",
+        "Procuro refletir antes de agir em momentos de emoção.",
+        "Minhas emoções não dominam minhas decisões."
+      ]
+    },
+    {
+      "area": "Autoconhecimento e Consciência Pessoal",
+      "questions": [
+        "Tenho clareza sobre meus pontos fortes e limitações.",
+        "Reflito sobre minhas atitudes para aprender com elas.",
+        "Reconheço padrões de comportamento recorrentes.",
+        "Compreendo minhas motivações antes de decisões importantes.",
+        "Conheço bem meus valores pessoais."
+      ]
+    },
+    {
+      "area": "Desenvolvimento Intelectual",
+      "questions": [
+        "Busco aprender continuamente.",
+        "Tenho interesse por ideias que ampliam minha visão.",
+        "Procuro desenvolver novas habilidades.",
+        "Dedico tempo regular ao aprendizado.",
+        "Mantenho curiosidade intelectual."
+      ]
+    },
+    {
+      "area": "Carreira e Competência Profissional",
+      "questions": [
+        "Tenho clareza sobre a direção da minha carreira.",
+        "Desenvolvo competências relevantes profissionalmente.",
+        "Busco melhorar meu desempenho profissional.",
+        "Percebo evolução na qualidade do meu trabalho.",
+        "Minha atuação profissional está alinhada aos meus objetivos."
+      ]
+    },
+    {
+      "area": "Prosperidade e Gestão Financeira",
+      "questions": [
+        "Tenho clareza sobre minha situação financeira.",
+        "Organizo minhas finanças com responsabilidade.",
+        "Busco melhorar minha capacidade de gerar renda.",
+        "Considero médio e longo prazo nas decisões financeiras.",
+        "Estou caminhando para maior estabilidade financeira."
+      ]
+    },
+    {
+      "area": "Relacionamentos e Convivência Social",
+      "questions": [
+        "Mantenho relações respeitosas com pessoas ao redor.",
+        "Escuto opiniões diferentes com respeito.",
+        "Construo relações baseadas em confiança.",
+        "Procuro resolver conflitos de forma madura.",
+        "Minhas interações sociais costumam ser positivas."
+      ]
+    },
+    {
+      "area": "Família e Base de Apoio",
+      "questions": [
+        "Dedico atenção às pessoas próximas.",
+        "Cultivo relações saudáveis com pessoas próximas.",
+        "Contribuo positivamente para meu ambiente familiar.",
+        "Dialogo com respeito mesmo em situações difíceis.",
+        "Existe apoio e respeito nas relações próximas."
+      ]
+    },
+    {
+      "area": "Vida Afetiva e Parcerias",
+      "questions": [
+        "Cultivo relações baseadas em respeito e confiança.",
+        "Busco maturidade emocional nas relações.",
+        "Dialogo de forma aberta nas relações.",
+        "Construo relações que promovem crescimento mútuo.",
+        "Conduzo relações com responsabilidade."
+      ]
+    },
+    {
+      "area": "Descanso, Lazer e Recuperação",
+      "questions": [
+        "Reservo momentos de descanso na semana.",
+        "Tenho atividades de lazer que renovam energia.",
+        "Equilibro trabalho e momentos de pausa.",
+        "Consigo me desconectar das preocupações no descanso.",
+        "Meu descanso sustenta minha rotina."
+      ]
+    },
+    {
+      "area": "Contribuição e Impacto",
+      "questions": [
+        "Procuro contribuir positivamente para outras pessoas.",
+        "Tenho consciência do impacto das minhas atitudes.",
+        "Ajo de forma ética e responsável.",
+        "Minhas ações geram benefícios para outras pessoas.",
+        "Participo de iniciativas que promovem bem comum."
+      ]
+    },
+    {
+      "area": "Espiritualidade e Vida Interior",
+      "questions": [
+        "Tenho momentos de reflexão sobre sentido da vida.",
+        "Cultivo princípios que orientam decisões.",
+        "Busco coerência entre crenças e práticas.",
+        "Tenho espaço para reflexão interior.",
+        "Minha vida tem fundamentos além do cotidiano."
+      ]
+    },
+    {
+      "area": "Propósito e Direção de Vida",
+      "questions": [
+        "Tenho clareza sobre a vida que desejo construir.",
+        "Tomo decisões alinhadas ao que considero importante.",
+        "Caminho em direção a objetivos significativos.",
+        "Minhas escolhas contribuem para meu futuro desejado.",
+        "Minha vida segue uma direção significativa."
+      ]
+    }
+  ]
+}

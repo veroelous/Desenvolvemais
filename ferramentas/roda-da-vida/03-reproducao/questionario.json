@@ -1,0 +1,239 @@
+[
+  {
+    "id": "area-01",
+    "name": "Saúde Física",
+    "short": "Saúde física",
+    "chart": [
+      "Saúde",
+      "física"
+    ],
+    "prompt": "Cuidado com o corpo e hábitos que sustentam seu dia a dia.",
+    "questions": [
+      "Mantenho uma rotina regular de cuidados com minha saúde física.",
+      "Tenho hábitos consistentes de alimentação que contribuem para meu bem-estar.",
+      "Procuro manter prática regular de atividade física ou movimento corporal.",
+      "Presto atenção aos sinais do meu corpo e ajo quando necessário.",
+      "Minha saúde física favorece meu desempenho diário."
+    ]
+  },
+  {
+    "id": "area-02",
+    "name": "Energia e Vitalidade",
+    "short": "Energia e vitalidade",
+    "chart": [
+      "Energia e",
+      "vitalidade"
+    ],
+    "prompt": "Disposição, recuperação e ritmo ao longo da sua rotina.",
+    "questions": [
+      "Inicio o dia com disposição para realizar minhas atividades.",
+      "Mantenho bom nível de energia ao longo da semana.",
+      "Equilibro períodos de esforço com momentos de recuperação.",
+      "Raramente me sinto constantemente esgotado.",
+      "Minha rotina favorece vitalidade e disposição."
+    ]
+  },
+  {
+    "id": "area-03",
+    "name": "Equilíbrio Emocional",
+    "short": "Equilíbrio emocional",
+    "chart": [
+      "Equilíbrio",
+      "emocional"
+    ],
+    "prompt": "Como você percebe e conduz suas emoções nas situações do dia a dia.",
+    "questions": [
+      "Lido com pressão sem perder controle emocional.",
+      "Tenho consciência das minhas emoções.",
+      "Reajo de forma equilibrada diante de frustrações.",
+      "Procuro refletir antes de agir em momentos de emoção.",
+      "Minhas emoções não dominam minhas decisões."
+    ]
+  },
+  {
+    "id": "area-04",
+    "name": "Autoconhecimento e Consciência Pessoal",
+    "short": "Autoconhecimento",
+    "chart": [
+      "Autoconhecimento"
+    ],
+    "prompt": "Consciência sobre seus padrões, valores e motivações.",
+    "questions": [
+      "Tenho clareza sobre meus pontos fortes e limitações.",
+      "Reflito sobre minhas atitudes para aprender com elas.",
+      "Reconheço padrões de comportamento recorrentes.",
+      "Compreendo minhas motivações antes de decisões importantes.",
+      "Conheço bem meus valores pessoais."
+    ]
+  },
+  {
+    "id": "area-05",
+    "name": "Desenvolvimento Intelectual",
+    "short": "Desenvolvimento intelectual",
+    "chart": [
+      "Desenvolvimento",
+      "intelectual"
+    ],
+    "prompt": "Aprendizado, curiosidade e ampliação das suas capacidades.",
+    "questions": [
+      "Busco aprender continuamente.",
+      "Tenho interesse por ideias que ampliam minha visão.",
+      "Procuro desenvolver novas habilidades.",
+      "Dedico tempo regular ao aprendizado.",
+      "Mantenho curiosidade intelectual."
+    ]
+  },
+  {
+    "id": "area-06",
+    "name": "Carreira e Competência Profissional",
+    "short": "Carreira e competência",
+    "chart": [
+      "Carreira e",
+      "competência"
+    ],
+    "prompt": "Direção e evolução da sua atuação profissional.",
+    "questions": [
+      "Tenho clareza sobre a direção da minha carreira.",
+      "Desenvolvo competências relevantes profissionalmente.",
+      "Busco melhorar meu desempenho profissional.",
+      "Percebo evolução na qualidade do meu trabalho.",
+      "Minha atuação profissional está alinhada aos meus objetivos."
+    ]
+  },
+  {
+    "id": "area-07",
+    "name": "Prosperidade e Gestão Financeira",
+    "short": "Gestão financeira",
+    "chart": [
+      "Gestão",
+      "financeira"
+    ],
+    "prompt": "Organização, responsabilidade e visão sobre seus recursos.",
+    "questions": [
+      "Tenho clareza sobre minha situação financeira.",
+      "Organizo minhas finanças com responsabilidade.",
+      "Busco melhorar minha capacidade de gerar renda.",
+      "Considero médio e longo prazo nas decisões financeiras.",
+      "Estou caminhando para maior estabilidade financeira."
+    ]
+  },
+  {
+    "id": "area-08",
+    "name": "Relacionamentos e Convivência Social",
+    "short": "Relações sociais",
+    "chart": [
+      "Relações",
+      "sociais"
+    ],
+    "prompt": "Confiança, respeito e maturidade nas suas interações.",
+    "questions": [
+      "Mantenho relações respeitosas com pessoas ao redor.",
+      "Escuto opiniões diferentes com respeito.",
+      "Construo relações baseadas em confiança.",
+      "Procuro resolver conflitos de forma madura.",
+      "Minhas interações sociais costumam ser positivas."
+    ]
+  },
+  {
+    "id": "area-09",
+    "name": "Família e Base de Apoio",
+    "short": "Família e apoio",
+    "chart": [
+      "Família e",
+      "apoio"
+    ],
+    "prompt": "Presença e cuidado nas relações que formam sua base.",
+    "questions": [
+      "Dedico atenção às pessoas próximas.",
+      "Cultivo relações saudáveis com pessoas próximas.",
+      "Contribuo positivamente para meu ambiente familiar.",
+      "Dialogo com respeito mesmo em situações difíceis.",
+      "Existe apoio e respeito nas relações próximas."
+    ]
+  },
+  {
+    "id": "area-10",
+    "name": "Vida Afetiva e Parcerias",
+    "short": "Vida afetiva",
+    "chart": [
+      "Vida afetiva e",
+      "parcerias"
+    ],
+    "prompt": "Respeito, diálogo e responsabilidade nas suas parcerias.",
+    "questions": [
+      "Cultivo relações baseadas em respeito e confiança.",
+      "Busco maturidade emocional nas relações.",
+      "Dialogo de forma aberta nas relações.",
+      "Construo relações que promovem crescimento mútuo.",
+      "Conduzo relações com responsabilidade."
+    ]
+  },
+  {
+    "id": "area-11",
+    "name": "Descanso, Lazer e Recuperação",
+    "short": "Descanso e lazer",
+    "chart": [
+      "Descanso",
+      "e lazer"
+    ],
+    "prompt": "Pausas e atividades que ajudam você a se recuperar.",
+    "questions": [
+      "Reservo momentos de descanso na semana.",
+      "Tenho atividades de lazer que renovam energia.",
+      "Equilibro trabalho e momentos de pausa.",
+      "Consigo me desconectar das preocupações no descanso.",
+      "Meu descanso sustenta minha rotina."
+    ]
+  },
+  {
+    "id": "area-12",
+    "name": "Contribuição e Impacto",
+    "short": "Contribuição e impacto",
+    "chart": [
+      "Contribuição",
+      "e impacto"
+    ],
+    "prompt": "A influência das suas escolhas e atitudes na vida de outras pessoas.",
+    "questions": [
+      "Procuro contribuir positivamente para outras pessoas.",
+      "Tenho consciência do impacto das minhas atitudes.",
+      "Ajo de forma ética e responsável.",
+      "Minhas ações geram benefícios para outras pessoas.",
+      "Participo de iniciativas que promovem bem comum."
+    ]
+  },
+  {
+    "id": "area-13",
+    "name": "Espiritualidade e Vida Interior",
+    "short": "Vida interior",
+    "chart": [
+      "Espiritualidade e",
+      "vida interior"
+    ],
+    "prompt": "Princípios, reflexão e coerência entre o que você crê e o que pratica.",
+    "questions": [
+      "Tenho momentos de reflexão sobre sentido da vida.",
+      "Cultivo princípios que orientam decisões.",
+      "Busco coerência entre crenças e práticas.",
+      "Tenho espaço para reflexão interior.",
+      "Minha vida tem fundamentos além do cotidiano."
+    ]
+  },
+  {
+    "id": "area-14",
+    "name": "Propósito e Direção de Vida",
+    "short": "Propósito e direção",
+    "chart": [
+      "Propósito e",
+      "direção"
+    ],
+    "prompt": "Sentido e alinhamento nas escolhas sobre o seu futuro.",
+    "questions": [
+      "Tenho clareza sobre a vida que desejo construir.",
+      "Tomo decisões alinhadas ao que considero importante.",
+      "Caminho em direção a objetivos significativos.",
+      "Minhas escolhas contribuem para meu futuro desejado.",
+      "Minha vida segue uma direção significativa."
+    ]
+  }
+]
