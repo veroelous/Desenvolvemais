@@ -12,8 +12,18 @@ Canal YouTube de desenvolvimento pessoal/profissional de Manoel Gonçalves. Cont
 6. Não confundir hipótese com dado; não inventar métricas, scores vidIQ, ofertas ou preços.
 7. Crítico, prático, pragmático. Teste pequeno e executável > mais planejamento.
 
+8. Um vídeo = um problema concreto. "Existe uma vida só" é a lente do canal (aparece nos exemplos), não o tema de um vídeo. Sem retrospectiva de vídeos anteriores no início; descoberta principal antes de 3–4 min.
+9. Não usar Prioridômetro antigo, Roda da Vida em papel, nem divulgar ainda o sistema online da Roda da Vida. Não mudar de repente para empreendedorismo. Iceberg sem percentuais "científicos".
+10. Partir do problema do público e depois procurar material — nunca o contrário.
+
+## Materiais
+- Backup do vídeo "Essa Vida É Sua?" (slides, guia) e transcrição do vídeo de procrastinação: `contexto/05_BACKUP_VIDEO_ESSA_VIDA_E_SUA/`.
+- Análise e lições: `contexto/APRENDIZADOS_BACKUP_ESSA_VIDA_E_SUA.md`.
+- WhatsApp do Manoel para CTA: https://wa.me/5512991337474
+
 ## Estado em 11/11/2026
 - 6 vídeos publicados; destaques: "Eu sei, mas não faço" (169 views) e "O que você não vê" (162).
+- Hipótese a confirmar: "O teste de 7 dias para saber se você..." (15 views em 5 dias) = vídeo "Essa Vida É Sua?".
 - vidIQ: canal não autorizado; sem créditos até 01/12/2026.
 - **Próximo vídeo:** As Armas da Persuasão (Cialdini) — não é resenha. Título candidato "Por que você diz SIM quando queria dizer NÃO?", thumb "VOCÊ ESCOLHEU?". Mecanismos: reciprocidade, compromisso/coerência, prova social. Gravação **sexta 13/11/2026**.
 - **Em aberto:** oferta real e fechada (nome, escopo, preço, passo de contratação). Até lá: convite honesto para conversa de orientação via WhatsApp.
