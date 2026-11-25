@@ -16,7 +16,7 @@ Agenda proposta (horário de Brasília — sem dado de melhor horário, é chute
 Observações:
 - Imagens: artes tipográficas 1080x1350 (4:5) em `artes/`. Para trocar texto/cor, editar `artes/gerar.js` e rodar `node gerar.js`. Quando houver foto real do Manoel, dá para incluí-la.
 - Link do WhatsApp vai **no primeiro comentário**, não no texto (hipótese comum de que link no corpo reduz alcance — não comprovado).
-- Onde estiver **[SUA HISTÓRIA]**, troque por um caso real seu ou apague a linha. Não inventei nenhuma história sua.
+- Lote sem histórias pessoais do Manoel (decisão de 25/11/2026): os textos não dependem dele para ir ao ar.
 - Se o vídeo do YouTube já estiver no ar, dá para pôr o link dele também no comentário.
 
 ---
@@ -38,8 +38,6 @@ E olha, isso não é defeito. É o que faz a gente ser grato, ser leal, manter r
 O problema é quando a dívida decide no seu lugar.
 
 É a amostra grátis no supermercado que faz você levar o pacote inteiro. É o colega que te cobriu numa reunião e agora pede um favor que vai custar seu fim de semana. É o "presentinho" antes da proposta comercial.
-
-[SUA HISTÓRIA: uma vez em que você aceitou algo por sentir que devia, e o que custou]
 
 Eu me pego nisso também. Por isso criei uma pergunta simples pra mim:
 
@@ -73,8 +71,6 @@ O Cialdini explica: a gente tem uma necessidade forte de parecer coerente com o 
 Aí acontece assim: "você pode me ajudar só com isso?" vira "já que você ajudou, pode cuidar disso também?" vira um projeto inteiro no seu colo.
 
 No trabalho. Na família. Na igreja. No relacionamento.
-
-[SUA HISTÓRIA: um compromisso que cresceu aos poucos até virar um peso]
 
 Coerência é virtude quando você está sendo fiel a um valor.
 
@@ -112,8 +108,6 @@ O Cialdini chama isso de prova social: quando a gente não tem certeza, olha pro
 E faz sentido, tá? Em muita situação isso protege a gente.
 
 Mas tem um detalhe: os outros também estão olhando pros outros. Às vezes é todo mundo seguindo todo mundo, e ninguém escolheu nada.
-
-[SUA HISTÓRIA: uma decisão que você tomou porque "era o normal" e depois percebeu que não era sua]
 
 A pergunta que eu deixo:
 
