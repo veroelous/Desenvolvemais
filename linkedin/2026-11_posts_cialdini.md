@@ -12,9 +12,9 @@ Agenda proposta (horário de Brasília — sem dado de melhor horário, é chute
 
 | # | Mecanismo | Data proposta |
 |---|---|---|
-| 1 | Reciprocidade | qui 26/11/2026, 8h |
-| 2 | Compromisso e coerência | ter 01/12/2026, 8h |
-| 3 | Prova social | qui 03/12/2026, 8h |
+| 1 | Reciprocidade | qua 25/11/2026, 12h45 |
+| 2 | Compromisso e coerência | qui 26/11/2026, 8h |
+| 3 | Prova social | sex 27/11/2026, 8h |
 
 Observações:
 - Imagens: artes tipográficas 1080x1350 (4:5) em `artes/`. Para trocar texto/cor, editar `artes/gerar.js` e rodar `node gerar.js`. Quando houver foto real do Manoel, dá para incluí-la.
