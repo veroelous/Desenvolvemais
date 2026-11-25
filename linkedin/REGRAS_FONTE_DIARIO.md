@@ -1,3 +1,12 @@
+# Fontes e regras dos posts do LinkedIn
+
+## Duas fontes, mesmo peso (decisão do Manoel em 25/11/2026)
+1. **Vídeos do Desenvolve Mais** — "ali também é o ouro"; é o que mais tem a ver com o LinkedIn. Cada vídeo rende vários posts (um por descoberta/bloco), e o post pode apontar para o vídeo.
+   Vídeos publicados até 11/11/2026: "Eu sei, mas não faço"; "O que você não vê" (ser bom em algo não basta); "O teste de 7 dias"; "Como saber se você está no caminho certo"; "Por que escrever um diário"; "Ikigai – 4 perguntas para começar"; "O Poder do Hábito" (gatilho → rotina → recompensa); "As Armas da Persuasão" (reciprocidade, coerência, prova social). Conferir no canal quais saíram depois.
+2. **Diário de Bordo** (Google Drive) — princípios e aprendizados profissionais, com o filtro de privacidade abaixo.
+
+Mistura sugerida por lote de 7: ~4 posts de vídeos do canal + ~3 do Diário de Bordo. Não repetir tema já publicado.
+
 # Regras para usar o Diário de Bordo como fonte de posts (LinkedIn)
 
 Decisão do Manoel em 25/11/2026: a pasta "Diário de Bordo" no Google Drive pode ser fonte de temas,
