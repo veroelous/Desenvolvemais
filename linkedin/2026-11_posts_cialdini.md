@@ -1,6 +1,9 @@
 # LinkedIn — Série "Você escolheu?" (base: As Armas da Persuasão)
 
-**Status:** RASCUNHO — aguardando aprovação do Manoel
+**Status:** AGENDADO no mLabs em 25/11/2026 (perfil "Planejamento", canal linkedin_personal)
+- Post 1: https://publish.mlabs.io/schedule/371395865/edit
+- Post 2: https://publish.mlabs.io/schedule/371401768/edit
+- Post 3: https://publish.mlabs.io/schedule/371414812/edit
 **Canal:** LinkedIn pessoal "Manoel Gonçalves" (via mLabs, ativo)
 **Objetivo do teste:** gerar conversas de orientação pelo WhatsApp (não curtidas).
 **Medição:** em 14 dias, quantas pessoas chamaram no WhatsApp citando o LinkedIn.
@@ -15,7 +18,7 @@ Agenda proposta (horário de Brasília — sem dado de melhor horário, é chute
 
 Observações:
 - Imagens: artes tipográficas 1080x1350 (4:5) em `artes/`. Para trocar texto/cor, editar `artes/gerar.js` e rodar `node gerar.js`. Quando houver foto real do Manoel, dá para incluí-la.
-- Link do WhatsApp vai **no primeiro comentário**, não no texto (hipótese comum de que link no corpo reduz alcance — não comprovado).
+- O mLabs não publica 1º comentário no LinkedIn; o convite do WhatsApp foi para o **fim do texto** de cada post. Os blocos "1º comentário" abaixo ficaram só como referência.
 - Lote sem histórias pessoais do Manoel (decisão de 25/11/2026): os textos não dependem dele para ir ao ar.
 - Se o vídeo do YouTube já estiver no ar, dá para pôr o link dele também no comentário.
 
