@@ -14,6 +14,7 @@ Agenda proposta (horário de Brasília — sem dado de melhor horário, é chute
 | 3 | Prova social | qui 03/12/2026, 8h |
 
 Observações:
+- Imagens: artes tipográficas 1080x1350 (4:5) em `artes/`. Para trocar texto/cor, editar `artes/gerar.js` e rodar `node gerar.js`. Quando houver foto real do Manoel, dá para incluí-la.
 - Link do WhatsApp vai **no primeiro comentário**, não no texto (hipótese comum de que link no corpo reduz alcance — não comprovado).
 - Onde estiver **[SUA HISTÓRIA]**, troque por um caso real seu ou apague a linha. Não inventei nenhuma história sua.
 - Se o vídeo do YouTube já estiver no ar, dá para pôr o link dele também no comentário.
@@ -21,6 +22,10 @@ Observações:
 ---
 
 ## Post 1 — Reciprocidade
+
+**Imagem:** `artes/post1.png`
+
+![post 1](artes/post1.png)
 
 Você já disse SIM só porque a pessoa tinha feito algo por você antes?
 
@@ -55,6 +60,10 @@ E você, qual foi o último sim que você deu só porque se sentiu em dívida?
 
 ## Post 2 — Compromisso e coerência
 
+**Imagem:** `artes/post2.png`
+
+![post 2](artes/post2.png)
+
 Tem decisão que você não toma. Você só continua.
 
 Você disse um "sim" pequeno lá atrás. Depois outro. Depois mais um. E quando viu, tá carregando um compromisso enorme que você nunca escolheu de verdade, né?
@@ -87,6 +96,10 @@ Qual compromisso você está mantendo só porque já começou?
 ---
 
 ## Post 3 — Prova social
+
+**Imagem:** `artes/post3.png`
+
+![post 3](artes/post3.png)
 
 "Todo mundo tá fazendo."
 
