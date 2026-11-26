@@ -13,7 +13,7 @@ body{width:1080px;height:1350px;background:radial-gradient(120% 80% at 80% 0%,#1
  color:#fff;font-family:Inter,sans-serif;padding:90px 90px 80px;display:flex;flex-direction:column;position:relative;overflow:hidden}
 .top{display:flex;justify-content:space-between;font-weight:600;font-size:30px;letter-spacing:.14em;text-transform:uppercase;color:#9fb3c8}
 .top b{color:${p.acc}}
-.big{font-family:Anton,sans-serif;line-height:.98;margin-top:120px;text-transform:uppercase}
+.big{font-family:Anton,sans-serif;line-height:1.2;margin-top:90px;text-transform:uppercase}
 .a{font-size:${size(p.l1)}px}.b{font-size:${size(p.l2)}px;opacity:.55}.c{font-size:${Math.min(190,size(p.l3)+40)}px;color:${p.acc}}
 .bar{width:140px;height:10px;background:${p.acc};margin:70px 0 40px;border-radius:5px}
 .q{font-size:44px;font-weight:600;line-height:1.3;max-width:860px;color:#e6edf5}
