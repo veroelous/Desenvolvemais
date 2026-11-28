@@ -5,7 +5,7 @@
  * no YouTube e guarda o resultado em cache por 30 minutos.
  * Para configurar, basta preencher o ID do canal (começa com "UC").
  */
-$CANAL_SEU_MISSIAS_ID = '{{ID_CANAL_SEU_MISSIAS}}';
+$CANAL_SEU_MISSIAS_ID = 'UCToOs06bAuX8TijIH6tOCtA';
 $CACHE_SEGUNDOS = 1800;
 
 function ultimo_video(string $canalId, int $ttl): ?array {
@@ -49,7 +49,7 @@ function ultimo_video(string $canalId, int $ttl): ?array {
 
 $video = ultimo_video($CANAL_SEU_MISSIAS_ID, $CACHE_SEGUNDOS);
 $h = fn($t) => htmlspecialchars($t, ENT_QUOTES, 'UTF-8');
-$videoLink = $video['link'] ?? 'https://www.youtube.com/channel/' . $CANAL_SEU_MISSIAS_ID . '/videos';
+$videoLink = $video['link'] ?? 'https://www.youtube.com/@seumissias/videos';
 $videoTitulo = $video['titulo'] ?? 'Vídeos do Seu Missias';
 $videoSub = $video ? 'Último vídeo do Seu Missias' : 'Canal no YouTube';
 ?>
@@ -132,16 +132,16 @@ $videoSub = $video ? 'Último vídeo do Seu Missias' : 'Canal no YouTube';
     <span class="s"><?= $h($videoSub) ?></span></span>
   </a>
 
-  <a class="btn" id="desenvolve-mais"href="{{LINK_CANAL_DESENVOLVE_MAIS}}" target="_blank" rel="noopener">
+  <a class="btn" id="desenvolve-mais"href="https://www.youtube.com/@canaldesenvolvemais" target="_blank" rel="noopener">
     <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="m10 9.5 4.5 2.5-4.5 2.5z" fill="currentColor"/></svg></span>
     <span class="txt"><span class="t">Desenvolve Mais no YouTube</span>
     <span class="s">Canal de desenvolvimento pessoal e profissional</span></span>
   </a>
 
-  <a class="btn" id="desenvolve-mais-instagram" href="{{LINK_INSTAGRAM_DESENVOLVE_MAIS}}" target="_blank" rel="noopener">
+  <a class="btn" id="desenvolve-mais-instagram" href="https://www.instagram.com/canaldesenvolvemais/" target="_blank" rel="noopener">
     <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/></svg></span>
     <span class="txt"><span class="t">Desenvolve Mais no Instagram</span>
-    <span class="s">{{ARROBA_INSTAGRAM_DESENVOLVE_MAIS}}</span></span>
+    <span class="s">@canaldesenvolvemais</span></span>
   </a>
 
   <footer>© 2026 Manoel Gonçalves · <a href="https://manoelgoncalves.com/">manoelgoncalves.com</a></footer>
