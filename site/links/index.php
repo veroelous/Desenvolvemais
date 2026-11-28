@@ -1,3 +1,58 @@
+<?php
+/*
+ * Página de links da bio do Instagram do Seu Missias.
+ * O botão "Último vídeo" se atualiza sozinho: lê o feed público do canal
+ * no YouTube e guarda o resultado em cache por 30 minutos.
+ * Para configurar, basta preencher o ID do canal (começa com "UC").
+ */
+$CANAL_SEU_MISSIAS_ID = '{{ID_CANAL_SEU_MISSIAS}}';
+$CACHE_SEGUNDOS = 1800;
+
+function ultimo_video(string $canalId, int $ttl): ?array {
+    if (!preg_match('/^UC[A-Za-z0-9_-]{22}$/', $canalId)) return null;
+    $cache = __DIR__ . '/.cache-ultimo-video.json';
+    if (is_file($cache) && time() - filemtime($cache) < $ttl) {
+        $d = json_decode((string) @file_get_contents($cache), true);
+        if (is_array($d)) return $d ?: null;
+    }
+    $url = 'https://www.youtube.com/feeds/videos.xml?channel_id=' . $canalId;
+    $xml = false;
+    if (function_exists('curl_init')) {
+        $ch = curl_init($url);
+        curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 4,
+            CURLOPT_CONNECTTIMEOUT => 3, CURLOPT_FOLLOWLOCATION => true]);
+        $xml = curl_exec($ch);
+        if (curl_getinfo($ch, CURLINFO_HTTP_CODE) !== 200) $xml = false;
+        curl_close($ch);
+    } elseif (ini_get('allow_url_fopen')) {
+        $xml = @file_get_contents($url, false, stream_context_create(['http' => ['timeout' => 4]]));
+    }
+    $video = null;
+    if ($xml) {
+        $feed = @simplexml_load_string($xml);
+        if ($feed && isset($feed->entry[0])) {
+            $e = $feed->entry[0];
+            $id = (string) $e->children('yt', true)->videoId;
+            $video = ['titulo' => trim((string) $e->title),
+                      'link' => 'https://www.youtube.com/watch?v=' . $id];
+        }
+    }
+    if ($video || !is_file($cache)) {
+        @file_put_contents($cache, json_encode($video ?: []), LOCK_EX);
+    } else {
+        @touch($cache); // feed fora do ar: mantém o último vídeo conhecido
+        $d = json_decode((string) @file_get_contents($cache), true);
+        return is_array($d) && $d ? $d : null;
+    }
+    return $video;
+}
+
+$video = ultimo_video($CANAL_SEU_MISSIAS_ID, $CACHE_SEGUNDOS);
+$h = fn($t) => htmlspecialchars($t, ENT_QUOTES, 'UTF-8');
+$videoLink = $video['link'] ?? 'https://www.youtube.com/channel/' . $CANAL_SEU_MISSIAS_ID . '/videos';
+$videoTitulo = $video['titulo'] ?? 'Vídeos do Seu Missias';
+$videoSub = $video ? 'Último vídeo do Seu Missias' : 'Canal no YouTube';
+?>
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -71,10 +126,10 @@
     <span class="s">Conversa pelo WhatsApp</span></span>
   </a>
 
-  <a class="btn" id="ultimo-video" href="{{LINK_ULTIMO_VIDEO_SEU_MISSIAS}}" target="_blank" rel="noopener">
+  <a class="btn" id="ultimo-video" href="<?= $h($videoLink) ?>" target="_blank" rel="noopener">
     <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
-    <span class="txt"><span class="t">{{TITULO_ULTIMO_VIDEO_SEU_MISSIAS}}</span>
-    <span class="s">Último vídeo do Seu Missias</span></span>
+    <span class="txt"><span class="t"><?= $h($videoTitulo) ?></span>
+    <span class="s"><?= $h($videoSub) ?></span></span>
   </a>
 
   <a class="btn" id="desenvolve-mais"href="{{LINK_CANAL_DESENVOLVE_MAIS}}" target="_blank" rel="noopener">
